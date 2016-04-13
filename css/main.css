@@ -12,7 +12,7 @@ body {
 
 img {
     width: 50%;
-		border-radius: 50px;
+    border-radius: 50px;
 }
 
 h1,
@@ -75,9 +75,9 @@ header h2 {
         display: block;
         border-radius: 50px;
     }
-		header p {
+    header p {
         font-size: 1.3em;
-		}
+    }
 
     .nameadd {
         float: left;
