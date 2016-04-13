@@ -2,6 +2,7 @@ body {
     padding: 5%;
 }
 
+
 img {
     width: 100%;
 }
@@ -60,28 +61,34 @@ header h2 {
 }
 
 @media (min-width: 750px) {
-    img {
+    #container {
         margin: auto;
-        width: 25%;
-        display: block;
-				border-radius: 50px;
+        max-width: 75%;
     }
 
-		.nameadd {
-			float: left;
-			margin-left: 35px;
-			text-align: center;
-		}
+    img {
+        margin: auto;
+        width: 20%;
+        display: block;
+        border-radius: 50px;
+    }
 
-		header h1 {
-			margin-top: -175px;
-		}
+    .nameadd {
+        float: left;
+        margin-left: 35px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    header h1 {
+        margin-top: -175px;
+    }
 
     .contactinfo {
-			float: right;
-			margin-right: 35px;
-			margin-top: -135px;
-			text-align: center;
-		}
+        float: right;
+        margin-right: 35px;
+        margin-top: -135px;
+        text-align: center;
+    }
 
 }
