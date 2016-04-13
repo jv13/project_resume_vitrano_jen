@@ -29,12 +29,12 @@ a:visited {
 } */
 
 header p {
-    margin-top: -5%;
+    margin-top: -15px;
 }
 
 header h2 {
     font-size: 1.2em;
-    margin-top: -15px;
+    margin-top: -5px;
 }
 
 .education h2 {
@@ -42,8 +42,10 @@ header h2 {
     font-style: normal;
 }
 
-.education p {
-    margin-top: -5%;
+.education p,
+.education ul,
+.workexperience ul {
+    margin-top: -10px;
 }
 
 .education h3,
@@ -54,5 +56,5 @@ header h2 {
 .skills p,
 .interests p,
 .workexperience p {
-    margin-top: -3%;
+    margin-top: -10px;
 }
