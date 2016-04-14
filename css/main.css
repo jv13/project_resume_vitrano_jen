@@ -65,8 +65,9 @@ a:visited {
 }
 
 .skills h2,
-.workexperience h2 {
-    margin-top: 20px;
+.workexperience h2,
+.interests h2 {
+    margin-top: 30px;
 }
 
 .skills h2 {
