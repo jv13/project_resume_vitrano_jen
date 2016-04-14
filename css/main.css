@@ -57,9 +57,14 @@ header h2 {
 }
 
 .education p,
+.workexperience p,
+.interests p {
+    margin-top: -15px;
+}
+
 .education ul,
 .workexperience ul {
-    margin-top: -10px;
+    margin-top: 0.5px;
 }
 
 .education h3,
@@ -67,14 +72,8 @@ header h2 {
     font-size: 1em;
 }
 
-.interests p,
-.workexperience p {
-    margin-top: -10px;
-}
-
 .skillbar {
     position: relative;
-    display: inline-block;
     margin: 15px 0;
     width: 100%;
     background: #eeeeee;
