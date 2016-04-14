@@ -1,12 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-		background-color: green;
+    background-color: green;
 }
 
 #container {
-	  padding: 5%;
+    padding: 5%;
     margin: auto;
     max-width: 950px;
-		background-color: white;
+    background-color: white;
 }
 
 
@@ -62,10 +67,55 @@ header h2 {
     font-size: 1em;
 }
 
-.skills p,
 .interests p,
 .workexperience p {
     margin-top: -10px;
+}
+
+.skillbar {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0;
+    width: 100%;
+    background: #eeeeee;
+    height: 35px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    background: #000000;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.skillbar-bar {
+    height: 35px;
+    width: 0;
+    background: #4ecdc4;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 @media (min-width: 750px) {
