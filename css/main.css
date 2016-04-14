@@ -64,6 +64,15 @@ a:visited {
     margin-top: -10px;
 }
 
+.skills h2,
+.workexperience h2 {
+    margin-top: 20px;
+}
+
+.skills h2 {
+    margin-bottom: -5px;
+}
+
 .skillbar {
     position: relative;
     margin: 15px 0;
@@ -135,7 +144,6 @@ a:visited {
         text-align: center;
         font-size: 1.5em;
     }
-
 }
 
 @media (min-width: 950px) {
