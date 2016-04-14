@@ -170,3 +170,15 @@ a:visited {
         margin-right: 100px;
     }
 }
+
+.reading,
+.traveling,
+.froyo,
+.movies,
+.shows,
+.country,
+.running,
+.puzzles {
+    margin-top: 5px;
+    color: #4ecdc4;
+}
