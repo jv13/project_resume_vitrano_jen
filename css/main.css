@@ -61,6 +61,7 @@ a:visited {
 .education h3,
 .workexperience h3 {
     font-size: 1em;
+		margin-top: -10px;
 }
 
 .skillbar {
@@ -151,7 +152,7 @@ a:visited {
 
     .contactinfo {
         float: right;
-        margin-top: -145px;
+        margin-top: -165px;
         text-align: center;
         margin-right: 100px;
     }
