@@ -33,27 +33,13 @@ a:visited {
     color: #000000;
 }
 
-
-
-/* .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-} */
-
 .education h2 {
     font-size: 1.5em;
     font-style: normal;
 }
 
 .education p,
-.workexperience p,
-.interests p {
+.workexperience p {
     margin-top: -15px;
 }
 
@@ -69,8 +55,7 @@ a:visited {
 }
 
 .skills h2,
-.workexperience h2,
-.interests h2 {
+.workexperience h2 {
     margin-top: 30px;
 }
 
